@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1637896638301
+Build-Jdk: 17.0.1
+Built-By: lenovo
+Bundle-Description: Provides the OSGi hdugfj commands
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: Shell hdugfj/hstyygjvhg Commands
+Bundle-SymbolicName: woodlands
+Bundle-Version: 0.0.0.v1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: woodlands;version=v1;uses:="org.apache.karaf.shell.api.a
+ ction,org.apache.karaf.shell.api.action.lifecycle"
+Import-Package: org.apache.karaf.shell.api.action;version="[4.3,5)",org.
+ apache.karaf.shell.api.action.lifecycle;version="[4.3,5)"
+Karaf-Commands: woodlands*
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103
